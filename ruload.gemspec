@@ -7,9 +7,9 @@ require "ruload/version"
 Gem::Specification.new do |s|
   s.name        = "ruload"
   s.version     = Ruload::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
+  s.authors     = ["Marcio Mangar"]
+  s.email       = ["marcio.mangar@gmail.com"]
+  s.homepage    = "http://about.me/mangar"
   s.summary     = "TODO: Summary of Ruload."
   s.description = "TODO: Description of Ruload."
 
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.5"
-
+  
   s.add_development_dependency "sqlite3"
 end
