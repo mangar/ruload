@@ -1,0 +1,9 @@
+
+provider:
+  name: "Cidade"
+  separator: ";"
+  fields:
+    - name: "codigo"
+      type: "String"
+    - name: "nome"
+      type: "String"
